@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PikeLindner</string>
+    <string name="title_main">Pike Fisherman handbook</string>
+    <string name="instruction">1. Выберите категорию водоёма;\n
+2. Измерьте температуру воды в месте ловли;\n
+3. Прочтите рекомендации по поиску щуки.
+ </string>
+    <string name="buttonBegin">Начать</string>
+
+    <string name="fish">Рыбы</string>
+    <string name="bait">Наживки</string>
+    <string name="tackle">Снасти</string>
+    <string name="history">Истории</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
