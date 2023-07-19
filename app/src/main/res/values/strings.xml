@@ -5,8 +5,24 @@
 2. Измерьте температуру воды в месте ловли;\n
 3. Прочтите рекомендации по поиску щуки.
  </string>
-    <string name="buttonBegin">Начать</string>
+    <string name="pond_category">Категории водоёмов:</string>
+    <string name="lakes">Озера</string>
+    <string name="rivers">Реки</string>
+    <string name="storage_pond">Водохранилища</string>
+    <string name="lake_category">Категории озёр:</string>
+    <string name="river_category">Категории рек:</string>
+    <string name="pond_storage_category">Категории водохранилищ:</string>
+   <string name="oligotrophic">Олиготрофное</string>
+   <string name="mezotrophic">Мезотрофное</string>
+   <string name="evtotrophic">Эвтоотрофное</string>
+   <string name="young">Молодая</string>
+   <string name="midle_age">Зрелая</string>
+   <string name="old">Старая</string>
+   <string name="platoe">Плоскогорные</string>
+   <string name="hills">На возвышенностях</string>
 
+
+   <string name="buttonBegin">Начать</string>
     <string name="fish">Рыбы</string>
     <string name="bait">Наживки</string>
     <string name="tackle">Снасти</string>
@@ -18,7 +34,6 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

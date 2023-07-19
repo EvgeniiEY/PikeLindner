@@ -7,6 +7,7 @@
 
 
 
+
     <ImageView
         android:id="@+id/cover2"
         android:layout_width="wrap_content"
@@ -29,20 +30,19 @@
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="6"
-        android:text="@string/instruction"
+        android:text="@string/pond_category"
         android:textAlignment="viewStart"
         android:textColor="@color/teal_200"
-        android:textSize="17sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonBegin"
+        android:id="@+id/buttonLakes"
         style="@style/Widget.AppCompat.ActionButton"
         android:layout_width="120dp"
         android:layout_height="80dp"
@@ -50,14 +50,56 @@
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="6"
-        android:text="@string/buttonBegin"
+        android:text="@string/lakes"
         android:textColor="@color/teal_200"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header" />
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <Button
+        android:id="@+id/buttonRivers"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:text="@string/rivers"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <Button
+        android:id="@+id/buttonStoragePond"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:text="@string/storage_pond"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.764" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@
 
 
 
+
     <ImageView
         android:id="@+id/cover2"
         android:layout_width="wrap_content"
@@ -20,44 +21,80 @@
         app:srcCompat="@drawable/cover2_crop" />
 
     <TextView
-        android:id="@+id/header"
+        android:id="@+id/rivers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="20dp"
         android:shadowColor="@color/black"
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="6"
-        android:text="@string/instruction"
+        android:text="@string/river_category"
         android:textAlignment="viewStart"
         android:textColor="@color/teal_200"
-        android:textSize="17sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
-        android:id="@+id/buttonBegin"
+        android:id="@+id/button1Rivers"
         style="@style/Widget.AppCompat.ActionButton"
-        android:layout_width="120dp"
+        android:layout_width="180dp"
         android:layout_height="80dp"
+        android:layout_marginTop="60dp"
         android:shadowColor="@color/black"
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="6"
-        android:text="@string/buttonBegin"
+        android:text="@string/young"
         android:textColor="@color/teal_200"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rivers" />
+    <Button
+        android:id="@+id/button2rivers"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:text="@string/midle_age"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header" />
+        app:layout_constraintTop_toBottomOf="@+id/button1Rivers" />
+
+    <Button
+        android:id="@+id/button3rivers"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:text="@string/old"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2rivers" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
