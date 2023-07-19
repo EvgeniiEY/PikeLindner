@@ -28,10 +28,11 @@
         app:layout_constraintTop_toTopOf="@+id/cover2"
         app:srcCompat="@drawable/oliglake" />
 
+
     <TextView
         android:id="@+id/oligoLakeDescription"
-        android:layout_width="370dp"
-        android:layout_height="274dp"
+        android:layout_width="379dp"
+        android:layout_height="252dp"
         android:layout_marginBottom="132dp"
         android:shadowColor="@color/black"
         android:shadowDx="10"
@@ -45,26 +46,32 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/OligoLakePic" />
+        app:layout_constraintTop_toBottomOf="@+id/OligoLakePic"
+        app:layout_constraintVertical_bias="0.658" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="124dp"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/oligoLakeDescription" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:text="Button"
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_back"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oligoLakeDescription"
-        tools:layout_editor_absoluteX="280dp" />
+        app:tint="@color/teal_200" />
+
+    <ImageButton
+        android:id="@+id/buttonNext"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_confirm"
+        app:layout_constraintStart_toEndOf="@+id/buttonBack"
+        app:layout_constraintTop_toBottomOf="@+id/oligoLakeDescription"
+        app:tint="@color/pastel_red" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
