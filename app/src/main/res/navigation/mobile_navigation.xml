@@ -9,4 +9,15 @@
         android:name="com.example.pikelindner.SplashActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/pondsCategories"
+        android:name="com.example.pikelindner.PondsCategories"
+        android:label="fragment_ponds_categories"
+        tools:layout="@layout/ponds_categories" />
+    <fragment
+        android:id="@+id/instruction2"
+        android:name="com.example.pikelindner.Instruction"
+        android:label="fragment_instruction"
+        tools:layout="@layout/fragment_instruction" />
 </navigation>

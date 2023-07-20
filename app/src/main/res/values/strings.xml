@@ -12,15 +12,15 @@
     <string name="lake_category">Категории озёр:</string>
     <string name="river_category">Категории рек:</string>
     <string name="pond_storage_category">Категории водохранилищ:</string>
-   <string name="oligotrophic">Олиготрофное</string>
-   <string name="mezotrophic">Мезотрофное</string>
-   <string name="evtotrophic">Эвтоотрофное</string>
-   <string name="young">Молодая</string>
-   <string name="midle_age">Зрелая</string>
-   <string name="old">Старая</string>
-   <string name="platoe">Плоскогорные</string>
-   <string name="hills">На возвышенностях</string>
-   <string name="oligoLakeDescription"> Молодое озеро. Олиготрофная стадия(средняя). На берегах, у подножия деревье
+    <string name="oligotrophic">Олиготрофное</string>
+    <string name="mezotrophic">Мезотрофное</string>
+    <string name="evtotrophic">Эвтоотрофное</string>
+    <string name="young">Молодая</string>
+    <string name="midle_age">Зрелая</string>
+    <string name="old">Старая</string>
+    <string name="platoe">Плоскогорные</string>
+    <string name="hills">На возвышенностях</string>
+    <string name="oligoLakeDescription"> Молодое озеро. Олиготрофная стадия(средняя). На берегах, у подножия деревьев
        выход на поверхность коренных пород, покрытых лишайником.
        Ели, сосны и немного берёз. Небольшое количество мелководной растительности.
    Крутые, конусообразные склоны берегов. Напластования разрушенной породы.
@@ -35,7 +35,7 @@
     <string name="button_again">Выбрать заново</string>
 
 
-   <string name="buttonBegin">Начать</string>
+    <string name="buttonBegin">Начать</string>
     <string name="fish">Рыбы</string>
     <string name="bait">Наживки</string>
     <string name="tackle">Снасти</string>
@@ -50,4 +50,6 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
