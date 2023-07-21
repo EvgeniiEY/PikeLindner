@@ -14,10 +14,30 @@
         android:id="@+id/pondsCategories"
         android:name="com.example.pikelindner.PondsCategories"
         android:label="fragment_ponds_categories"
-        tools:layout="@layout/ponds_categories" />
-    <fragment
+        tools:layout="@layout/ponds_categories" >
+        <action
+            android:id="@+id/action_pondsCategories_to_instruction2"
+            app:destination="@id/instruction2" />
+    </fragment>
+    <activity
         android:id="@+id/instruction2"
         android:name="com.example.pikelindner.Instruction"
-        android:label="fragment_instruction"
-        tools:layout="@layout/fragment_instruction" />
+        android:label="instruction"
+        tools:layout="@layout/instruction" />
+    <activity
+        android:id="@+id/lakes2"
+        android:name="com.example.pikelindner.Lakes"
+        android:label="Lakes" />
+    <activity
+        android:id="@+id/oligoLakeDescription2"
+        android:name="com.example.pikelindner.OligoLakeDescription"
+        android:label="OligoLakeDescription" />
+    <activity
+        android:id="@+id/rivers2"
+        android:name="com.example.pikelindner.Rivers"
+        android:label="Rivers" />
+    <activity
+        android:id="@+id/storages2"
+        android:name="com.example.pikelindner.Storages"
+        android:label="Storages" />
 </navigation>

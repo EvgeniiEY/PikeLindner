@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Instruction"/>
+        <activity android:name=".Lakes"/>
+        <activity android:name=".OligoLakeDescription"/>
         <activity android:name=".PondsCategories"/>
 
     </application>
