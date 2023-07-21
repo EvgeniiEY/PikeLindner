@@ -30,7 +30,7 @@
         android:label="Lakes" />
     <activity
         android:id="@+id/oligoLakeDescription2"
-        android:name="com.example.pikelindner.OligoLakeDescription"
+        android:name="com.example.pikelindner.lakes.OligoLakeDescription"
         android:label="OligoLakeDescription" />
     <activity
         android:id="@+id/rivers2"

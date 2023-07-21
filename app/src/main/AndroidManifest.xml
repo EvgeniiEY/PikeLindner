@@ -24,8 +24,13 @@
         </activity>
         <activity android:name=".Instruction"/>
         <activity android:name=".Lakes"/>
-        <activity android:name=".OligoLakeDescription"/>
         <activity android:name=".PondsCategories"/>
+        <activity android:name=".lakes.OligoLakeDescription"/>
+        <activity android:name=".lakes.EvtroLakeDescription"/>
+        <activity android:name=".lakes.MezoLakeDescription"/>
+        <activity android:name=".rivers.AdultRiverDescription"/>
+        <activity android:name=".Rivers"/>
+        <activity android:name=".Storages"/>
 
     </application>
 
