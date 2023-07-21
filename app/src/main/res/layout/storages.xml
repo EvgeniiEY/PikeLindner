@@ -76,6 +76,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1storages" />
+    <ImageButton
+        android:id="@+id/buttonBackStorages"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="28dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2storages"
+        app:tint="@color/teal_200" />
+
 
 
 

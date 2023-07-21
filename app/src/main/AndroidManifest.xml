@@ -29,6 +29,8 @@
         <activity android:name=".lakes.EvtroLakeDescription"/>
         <activity android:name=".lakes.MezoLakeDescription"/>
         <activity android:name=".rivers.AdultRiverDescription"/>
+        <activity android:name=".rivers.MatureRiverDescription"/>
+        <activity android:name=".rivers.MiddleAgeRiverDescription"/>
         <activity android:name=".Rivers"/>
         <activity android:name=".Storages"/>
 

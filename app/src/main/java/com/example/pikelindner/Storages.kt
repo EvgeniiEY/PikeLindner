@@ -10,7 +10,7 @@ class Storages: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.lakes)
+        setContentView(R.layout.storages)
         supportActionBar?.hide()
 
 //        button1lakes.setOnClickListener{

@@ -46,7 +46,7 @@
         style="@style/Widget.AppCompat.ActionButton"
         android:layout_width="180dp"
         android:layout_height="80dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="24dp"
         android:shadowColor="@color/black"
         android:shadowDx="10"
         android:shadowDy="10"
@@ -56,9 +56,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rivers" />
+
     <Button
         android:id="@+id/button2Rivers"
         style="@style/Widget.AppCompat.ActionButton"
@@ -94,6 +95,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2Rivers" />
+
+    <ImageButton
+        android:id="@+id/buttonBackRivers"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="28dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3Rivers"
+        app:tint="@color/teal_200" />
 
 
 

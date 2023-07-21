@@ -25,12 +25,12 @@ class PondsCategories : AppCompatActivity() {
         }
 
         buttonRivers.setOnClickListener{
-            val intent = Intent(this, Instruction::class.java)
+            val intent = Intent(this, Rivers::class.java)
             startActivity(intent)
         }
 
         buttonStoragePond.setOnClickListener{
-            val intent = Intent(this, Instruction::class.java)
+            val intent = Intent(this, Storages::class.java)
             startActivity(intent)
         }
 
