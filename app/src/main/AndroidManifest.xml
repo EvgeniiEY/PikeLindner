@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Instruction"/>
+        <activity android:name=".TemperatureChoosingPeriod"/>
         <activity android:name=".pondsCategories.Lakes"/>
         <activity android:name=".pondsCategories.PondsCategories"/>
         <activity android:name=".pondsCategories.lakes.OligoLakeDescription"/>

@@ -14,7 +14,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -39,9 +39,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
 
     <TextView
         android:id="@+id/choose_temperature"
@@ -67,13 +68,22 @@
         app:layout_constraintTop_toBottomOf="@+id/header" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerTemp"
         android:layout_width="160dp"
-        android:layout_height="26dp"
+        android:layout_height="32dp"
         android:layout_marginStart="124dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choose_temperature"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerTemp"></Spinner>
 
     <TextView
         android:id="@+id/period_chosen"
@@ -95,7 +105,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMonth" />
 
     <TextView
         android:id="@+id/read_final_description"
@@ -120,25 +130,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/period_chosen" />
 
+    <TextView
+        android:id="@+id/degreeNumber"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="@color/blood_red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cover2"
+        app:layout_constraintVertical_bias="0.862" />
+
     <ImageButton
         android:id="@+id/buttonBackTempChoosing"
         android:layout_width="88dp"
         android:layout_height="72dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="28dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/read_final_description"
-        app:layout_constraintVertical_bias="0.695"
+        app:layout_constraintVertical_bias="0.181"
         app:tint="@color/teal_200" />
 
     <ImageButton
         android:id="@+id/buttonFinalDescription"
         android:layout_width="88dp"
         android:layout_height="72dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="60dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_read_final_description"

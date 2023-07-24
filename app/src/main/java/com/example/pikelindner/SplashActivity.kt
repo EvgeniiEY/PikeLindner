@@ -18,6 +18,7 @@ class SplashActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = R.layout.activity_main
 
+
         setContentView(view)
 //        onClick(splashActivity)
         coverPike.setOnClickListener{

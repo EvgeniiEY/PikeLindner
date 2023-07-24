@@ -95,6 +95,18 @@
     <string name="period_coldwater">Холодная вода</string>
     <string name="not_choosen_period">Температура не выбрана</string>
     <string name="read_final_description">Рекомендации по ловле</string>
+    <string name="jan">Январь</string>
+    <string name="feb">Февраль</string>
+    <string name="mar">Март</string>
+    <string name="apr">Апрель</string>
+    <string name="may">Май</string>
+    <string name="jun">Июнь</string>
+    <string name="jul">Июль</string>
+    <string name="aug">Август</string>
+    <string name="sep">Сентябрь</string>
+    <string name="okt">Октябрь</string>
+    <string name="nov">Ноябрь</string>
+    <string name="des">Декабрь</string>
 
 
     <string name="button_back">Назад</string>
