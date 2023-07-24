@@ -23,16 +23,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".Instruction"/>
-        <activity android:name=".Lakes"/>
-        <activity android:name=".PondsCategories"/>
-        <activity android:name=".lakes.OligoLakeDescription"/>
-        <activity android:name=".lakes.EvtroLakeDescription"/>
-        <activity android:name=".lakes.MezoLakeDescription"/>
-        <activity android:name=".rivers.AdultRiverDescription"/>
-        <activity android:name=".rivers.MatureRiverDescription"/>
-        <activity android:name=".rivers.MiddleAgeRiverDescription"/>
-        <activity android:name=".Rivers"/>
-        <activity android:name=".Storages"/>
+        <activity android:name=".pondsCategories.Lakes"/>
+        <activity android:name=".pondsCategories.PondsCategories"/>
+        <activity android:name=".pondsCategories.lakes.OligoLakeDescription"/>
+        <activity android:name=".pondsCategories.lakes.EvtroLakeDescription"/>
+        <activity android:name=".pondsCategories.lakes.MezoLakeDescription"/>
+        <activity android:name=".pondsCategories.rivers.AdultRiverDescription"/>
+        <activity android:name=".pondsCategories.rivers.MatureRiverDescription"/>
+        <activity android:name=".pondsCategories.rivers.MiddleAgeRiverDescription"/>
+        <activity android:name=".pondsCategories.storages.PlateauStorageDescription"/>
+        <activity android:name=".pondsCategories.storages.HillsStorageDescription"/>
+
+        <activity android:name=".pondsCategories.Rivers"/>
+        <activity android:name=".pondsCategories.Storages"/>
 
     </application>
 

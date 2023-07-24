@@ -3,6 +3,7 @@ package com.example.pikelindner
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.pikelindner.pondsCategories.PondsCategories
 import kotlinx.android.synthetic.main.instruction.*
 
 

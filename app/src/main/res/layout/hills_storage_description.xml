@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cover2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover2_crop" />
+
+    <ImageView
+        android:id="@+id/hillsStoragePic"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cover2"
+        app:srcCompat="@drawable/storage_hills" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_Id"
+        android:layout_width="350dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="316dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/hillsStorageDescription"
+            android:layout_width="379dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="132dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="6"
+            android:text="@string/hillsStorageDescription"
+            android:textAlignment="viewStart"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hillsStoragePic"
+            app:layout_constraintVertical_bias="0.0" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="56dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SCROLLER_Id"
+        app:tint="@color/teal_200" />
+
+    <ImageButton
+        android:id="@+id/buttonNext"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_button_confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toEndOf="@+id/buttonBack"
+        app:layout_constraintTop_toBottomOf="@+id/SCROLLER_Id"
+        app:tint="@color/pastel_red" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

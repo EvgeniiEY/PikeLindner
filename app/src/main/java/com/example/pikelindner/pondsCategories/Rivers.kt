@@ -1,13 +1,12 @@
-package com.example.pikelindner
+package com.example.pikelindner.pondsCategories
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.pikelindner.lakes.OligoLakeDescription
-import com.example.pikelindner.rivers.AdultRiverDescription
-import com.example.pikelindner.rivers.MatureRiverDescription
-import com.example.pikelindner.rivers.MiddleAgeRiverDescription
-import kotlinx.android.synthetic.main.lakes.*
+import com.example.pikelindner.R
+import com.example.pikelindner.pondsCategories.rivers.AdultRiverDescription
+import com.example.pikelindner.pondsCategories.rivers.MatureRiverDescription
+import com.example.pikelindner.pondsCategories.rivers.MiddleAgeRiverDescription
 import kotlinx.android.synthetic.main.rivers.*
 
 class Rivers: AppCompatActivity() {

@@ -12,7 +12,7 @@
 
     <fragment
         android:id="@+id/pondsCategories"
-        android:name="com.example.pikelindner.PondsCategories"
+        android:name="com.example.pikelindner.pondsCategories.PondsCategories"
         android:label="fragment_ponds_categories"
         tools:layout="@layout/ponds_categories" >
         <action
@@ -26,18 +26,18 @@
         tools:layout="@layout/instruction" />
     <activity
         android:id="@+id/lakes2"
-        android:name="com.example.pikelindner.Lakes"
+        android:name="com.example.pikelindner.pondsCategories.Lakes"
         android:label="Lakes" />
     <activity
         android:id="@+id/oligoLakeDescription2"
-        android:name="com.example.pikelindner.lakes.OligoLakeDescription"
+        android:name="com.example.pikelindner.pondsCategories.lakes.OligoLakeDescription"
         android:label="OligoLakeDescription" />
     <activity
         android:id="@+id/rivers2"
-        android:name="com.example.pikelindner.Rivers"
+        android:name="com.example.pikelindner.pondsCategories.Rivers"
         android:label="Rivers" />
     <activity
         android:id="@+id/storages2"
-        android:name="com.example.pikelindner.Storages"
+        android:name="com.example.pikelindner.pondsCategories.Storages"
         android:label="Storages" />
 </navigation>
