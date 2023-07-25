@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pikelindner.pondsCategories.Lakes
 import com.example.pikelindner.R
+import com.example.pikelindner.TemperatureChoosingPeriod
 import kotlinx.android.synthetic.main.oligo_lake_description.*
 
 class MezoLakeDescription: AppCompatActivity() {
@@ -20,7 +21,7 @@ class MezoLakeDescription: AppCompatActivity() {
             startActivity(intent)
         }
         buttonNext.setOnClickListener{
-            val intent = Intent(this, Lakes::class.java)
+            val intent = Intent(this, TemperatureChoosingPeriod::class.java)
             startActivity(intent)
         }
 

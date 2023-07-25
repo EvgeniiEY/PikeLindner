@@ -73,8 +73,12 @@
         android:layout_height="32dp"
         android:layout_marginStart="124dp"
         android:layout_marginTop="20dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/choose_temperature"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/choose_temperature" />
 
     <Spinner
         android:id="@+id/spinnerMonth"
@@ -83,7 +87,7 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerTemp"></Spinner>
+        app:layout_constraintTop_toBottomOf="@+id/spinnerTemp" />
 
     <TextView
         android:id="@+id/period_chosen"
