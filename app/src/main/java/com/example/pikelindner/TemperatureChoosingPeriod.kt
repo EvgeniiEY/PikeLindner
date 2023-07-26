@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.oligo_lake_description.*
 import kotlinx.android.synthetic.main.temperature_choosing_period.*
 import kotlinx.android.synthetic.main.temperature_choosing_period.view.*
 
-class TemperatureChoosingPeriod : AppCompatActivity(), AdapterView.OnItemSelectedListener {
+class TemperatureChoosingPeriod : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -88,7 +88,6 @@ class TemperatureChoosingPeriod : AppCompatActivity(), AdapterView.OnItemSelecte
         spinnerTemp.adapter = arrayAdapter
         spinnerTemp.onItemSelectedListener = object :
 
-
             AdapterView.OnItemSelectedListener {
 
             override fun onItemSelected(
@@ -97,31 +96,16 @@ class TemperatureChoosingPeriod : AppCompatActivity(), AdapterView.OnItemSelecte
                 position: Int,
                 id: Long
             ) {
+                parent?.getChildAt(0)?.background?.colorFilter
                 var chosenTemp = position.toString()
                 Toast.makeText(baseContext, chosenTemp, Toast.LENGTH_SHORT).show()
                 period_chosen.text = chosenTemp
-
-
-
 
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
             }
-
         }
-
     }
-
-    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        TODO("Not yet implemented")
-    }
-
-    override fun onNothingSelected(parent: AdapterView<*>?) {
-        TODO("Not yet implemented")
-    }
-
-
-
 }
