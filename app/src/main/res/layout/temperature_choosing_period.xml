@@ -22,19 +22,19 @@
 
     <TextView
         android:id="@+id/header"
-        android:layout_width="324dp"
-        android:layout_height="109dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="398dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center"
         android:shadowColor="@color/black"
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="6"
         android:text="@string/temperature_choosing"
-        android:textAlignment="viewStart"
         android:textColor="@color/teal_200"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -70,16 +70,15 @@
 
     <Spinner
         android:id="@+id/spinnerTemp"
-        android:layout_width="185dp"
-        android:layout_height="22dp"
-
-
-        android:layout_marginTop="20dp"
-        android:background="@drawable/ic_arrow_down"
-        android:textStyle="bold"
-
-        app:layout_constraintTop_toBottomOf="@+id/choose_temperature"
-        tools:layout_editor_absoluteX="103dp" />
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/spinner_design"
+        android:gravity="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_temperature" />
 
     <Spinner
         android:id="@+id/spinnerMonth"
@@ -162,7 +161,7 @@
         android:id="@+id/buttonBackTempChoosing"
         android:layout_width="88dp"
         android:layout_height="72dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="28dp"
         android:background="@android:color/transparent"
@@ -170,22 +169,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/read_final_description"
-        app:layout_constraintVertical_bias="0.181"
+        app:layout_constraintVertical_bias="0.964"
         app:tint="@color/teal_200" />
 
     <ImageButton
         android:id="@+id/buttonFinalDescription"
         android:layout_width="88dp"
         android:layout_height="72dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="44dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_read_final_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/read_final_description"
         app:tint="@color/pastel_red" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
